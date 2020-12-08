@@ -8,10 +8,11 @@ from MatchMaker import MatchMaker
 from pprint import pprint
 import boto3
 from botocore.exceptions import ClientError
-
+import time
+winning_results = []
 def update_skill(pID,skillLevel, dynamodb=None):
     if not dynamodb:
-        dynamodb = boto3.resource('dynamodb', endpoint_url="https://us-east-2.console.aws.amazon.com/dynamodb/home?region=us-east-2#tables")
+        dynamodb = boto3.resource('dynamodb', endpoint_url="https://ca-central-1.console.aws.amazon.com/dynamodb/home?region=ca-central-1#tables")
 
     table = dynamodb.Table('Sample1')
 
@@ -29,7 +30,7 @@ def update_skill(pID,skillLevel, dynamodb=None):
 
 def get_player(pID, skillLevel, dynamodb=None):
     if not dynamodb:
-        dynamodb = boto3.resource('dynamodb', endpoint_url="https://us-east-2.console.aws.amazon.com/dynamodb/home?region=us-east-2#tables:")
+        dynamodb = boto3.resource('dynamodb', endpoint_url="https://ca-central-1.console.aws.amazon.com/dynamodb/home?region=ca-central-1#tables:")
 
     table = dynamodb.Table('Sample1')
 
@@ -64,8 +65,10 @@ def main():
     
     logger.setLevel(logging.DEBUG) 
       
-      
-    for game in range(20):
+    for i in range(10):
+       winning_results.append([0,0,0])
+       
+    for game in range(random.nextint(20)):
         # Format of Output of Matchmaker: Array of 6 elements
         # First three elements are the ID of the three opponents of the Game
         # Next three elements are the new Skill levels of the players competing in the game
@@ -74,16 +77,33 @@ def main():
         
         output = MatchMaker(random.randint(0,9))
        # print(output)
-        logger.info(str(game)+" Game Started")
-        logger.info("First Player: " + str(output[0]))
-        logger.info("Second Player: "+ str(output[1]))
-        logger.info("Third Player: "+ str(output[2]))
-        logger.info(str(game) +" Game Ended")
-      #  logger.info("Winner:" + str(findWinner(output[0],output[1],output[2])))
-        logger.info("Skill Levels of Players after the game:")
-        logger.info("First Player: " + str(output[3]))
-        logger.info("Second Player: "+ str(output[4]))
-        logger.info("Third Player: "+ str(output[5]))
+        logger.info("INFO:root:Game ID:"+str(game)+" requested at "+str(time.now()))
+        
+        logger.info("Following player requested at " + str(time.now()))
+        logger.info("INFO:root:{'totalGames:'"+ str(winning_output[output[0]][0]) + ", 'gamesWon': " +str(winning_output[output[0]][1]) + ", 'gamesLost': " + str(winning_output[output[0]][2]) + ",'playerID': "+ str(output[0])+' winPercentage': " + str(winning_output[output[0]][1]/winning_output[output[0]][0]) + "}")
+
+        logger.info("Following player requested at " + str(time.now()))
+        logger.info("INFO:root:{'totalGames:'"+ str(winning_output[output[1]][0]) + ", 'gamesWon': " +str(winning_output[output[1]][1]) + ", 'gamesLost': " + str(winning_output[output[1]][2]) 
+
+        logger.info("Following player requested at " + str(time.now()))
+        logger.info("INFO:root:{'totalGames:'"+ str(winning_output[output[2]][0]) + ", 'gamesWon': " +str(winning_output[output[2]][1]) + ", 'gamesLost': " + str(winning_output[output[2]][2]) + ", 'winPercentage': " + str(winning_output[output[2]][1]/winning_output[output[2]][0]) + "}")
+            
+        winner = findWinner(output[0],output[1],output[2])
+        logger.info("INFO:root:Player " + str(winner) + "won.")
+
+        winning_results[output[0]][0]+=1
+        winning_results[output[1]][0]+=1
+        winning_results[output[2]][0]+=1
+        winning_results[winner][1]+=1
+        winning_results[winner][2]-=1
+        winning_results[output[0]][2]+=1
+        winning_results[output[1]][2]+=1
+        winning_results[output[2]][2]+=1
+                    
+        logger.info("INFO:root:Updated wins and losses: {'totalGames:'"+ str(winning_output[output[0]][0]) + ", 'gamesWon': " +str(winning_output[output[0]][1]) + ", 'gamesLost': " + str(winning_output[output[0]][2]) + ", 'winPercentage': " + str(winning_output[output[0]][1]/winning_output[output[0]][0]) + "}")
+        logger.info("INFO:root:Updated wins and losses: {'totalGames:'"+ str(winning_output[output[1]][0]) + ", 'gamesWon': " +str(winning_output[output[1]][1]) + ", 'gamesLost': " + str(winning_output[output[1]][2]) 
+        logger.info("INFO:root:Updated wins and losses: {'totalGames:'"+ str(winning_output[output[2]][0]) + ", 'gamesWon': " +str(winning_output[output[2]][1]) + ", 'gamesLost': " + str(winning_output[output[2]][2]) + ", 'winPercentage': " + str(winning_output[output[2]][1]/winning_output[output[2]][0]) + "}")
+                            
         update_skill(output[0],output[3])
         update_skill(output[1],output[4])
         update_skill(output[2],output[5])

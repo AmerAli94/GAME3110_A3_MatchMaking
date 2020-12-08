@@ -11,7 +11,7 @@
 
 def get_player(pID, dynamodb=None):
     if not dynamodb:
-        dynamodb = boto3.resource('dynamodb', endpoint_url="https://us-east-2.console.aws.amazon.com/dynamodb/home?region=us-east-2#tables")
+        dynamodb = boto3.resource('dynamodb', endpoint_url="https://ca-central-1.console.aws.amazon.com/dynamodb/home?region=ca-central-1#tables")
 
     table = dynamodb.Table('Sample1')
 

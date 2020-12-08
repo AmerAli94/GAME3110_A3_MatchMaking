@@ -1,0 +1,22 @@
+INFO:root:Game ID: 6 requested at 07.Dec 2020 11:25:16 
+INFO:root: Following player connected at 07.Dec 2020 11:25:16
+INFO:root:{'totalGames': 110, 'gamesLost': 50, 'gamesWon': 60, 'playerID': '1', 'winPercentage': 0.545}
+INFO:root:Following player connected at 07.Dec 2020 11:25:16
+INFO:root:{'totalGames': 110, 'gamesLost': 40, 'gamesWon': 70, 'playerID': '2', 'winPercentage': 0.636  }
+INFO:root:Following player connected at 07.Dec 2020 11:25:16
+INFO:root:{'totalGames': 160, 'gamesLost': 60, 'gamesWon': 100, 'playerID': '3', 'winPercentage: 0.625}
+INFO:root:Player 3 won.
+INFO:root:Updated wins and losses {'totalGames': 111, 'gamesLost': 51, 'gamesWon': 60, 'playerlD': '1', 'winPercentage': 0.540}
+INFO:root:Updated wins and losses {'totalGames': 111, 'gamesLost': 41, 'gamesWon': 70, 'playerlD': '2', 'winPercentage': 0.630}
+INFO:root:Updated wins and losses {'totalGames': 161, 'gamesLost': 60, 'gamesWon': 101, 'playerlD': '3', 'winPercentage': 0.627} 
+INFO:root:Game ID: 1 requested at 07.Dec 2020 11:25:17
+INFO:root:Following player connected at 07.Dec 2020 11:25:17
+INFO:root:{'totalGames': 120, 'gamesLost': 60, 'gamesWon': 60, 'playerID': '5', 'winPercentage': 0.500}
+INFO:root:Following player connected at 07.Dec 2020 11:25:17
+INFO:root:{'totalGames': 112, 'gamesLost': 60, 'gamesWon': 62, 'playerID': '4', 'winPercentage': 0.553}
+INFO:root:Following player connected at 07.Dec 2020 11:25:17
+INFO:root:{'totalGames': 160, 'gamesLost': 110, 'gamesWon': 50, 'playerID': '7', 'winPercentage': 0.310}
+INFO:root:Player 4 won.
+INFO:root:Updated wins and losses {'totalGames.: 121, 'gamesLost': 61, 'gamesWon': 60, 'playerID': '5', 'winPercentage': 0.495 } 
+INFO:root:Updated wins and losses {'totalGames': 113, 'gamesLost': 60, 'gamesWon': 63, 'playerID': '4', 'winPercentage': 0.557} 
+INFO:root:Updated wins and losses {'totalGames': 161, 'gamesLost': 111, 'gamesWon': 50, 'playerID': '7', 'winPercentage': 0.310} 
