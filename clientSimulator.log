@@ -1,0 +1,284 @@
+INFO:root:Client simulation running
+INFO:root:Game 0 requested 
+INFO:root:Player 5 is entering the Match 
+INFO:root:Player 7 is entering Match
+INFO:root:Player 6 is entering Match
+INFO:root:Player 8 has won the Match
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 6 has lost the Match 
+INFO:root:Game 2 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 8 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 7has won the Match
+INFO:root:Player 9has lost the Match
+INFO:root:Player 8has lost the Match
+INFO:root:Game 3 requested at time 
+INFO:root:Player 2 is entering the Match 
+INFO:root:Player 1 is entering Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 3has won the Match
+INFO:root:Player 2has lost the Match
+INFO:root:Player 1has lost the Match
+INFO:root:Player 3 new Skill is 
+INFO:root:Game 4 requested 
+INFO:root:Player 7 is entering the Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 10 is entering Match 
+INFO:root:Player 10has won the Match 
+INFO:root:Player 7has lost the Match 
+INFO:root:Player 9has lost the Match 
+INFO:root:Player 10 new Skill is 
+INFO:root:Game 5 requested 
+INFO:root:Player 10 is entering the Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 7has won the Match 
+INFO:root:Player 10has lost the Match 
+INFO:root:Player 7 new Skill is 
+INFO:root:Game 6 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 8 is entering Match 
+INFO:root:Player 8has won the Match 
+INFO:root:Player 9has lost the Match 
+INFO:root:Player 8 new Skill is 
+INFO:root:Game 7 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 8 is entering Match 
+INFO:root:Player 9has won the Match 
+INFO:root:Player 8has lost the Match 
+INFO:root:Player 9 new Skill is 
+INFO:root:Game 8 requested 
+INFO:root:Player 4 is entering the Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 3has won the Match 
+INFO:root:Player 4has lost the Match 
+INFO:root:Player 2has lost the Match 
+INFO:root:Player 3 new Skill is 
+INFO:root:Game 9 requested 
+INFO:root:Player 7 is entering the Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 10 is entering Match 
+INFO:root:Player 9has won the Match 
+INFO:root:Player 7has lost the Match 
+INFO:root:Player 10has lost the Match 
+INFO:root:Player 9 new Skill is 
+INFO:root:Game 10 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 10 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 10has won the Match 
+INFO:root:Player 9has lost the Match 
+INFO:root:Player 7has lost the Match 
+INFO:root:Player 10 new Skill is 
+INFO:root:Client simulation running 
+INFO:root:Game 1 requested
+INFO:root:Player 10 is entering the Match
+INFO:root:Player 8 is entering Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 8 has won the Match 
+INFO:root:Player 10 has lost the Match 
+INFO:root:Player 9 has lost the Match 
+INFO:root:Player 8 new Skill is 
+INFO:root:Game 2 requested 
+INFO:root:Player 4 is entering the Match
+INFO:root:Player 2 is entering Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 2 has won the Match
+INFO:root:Player 4 has lost the Match 
+INFO:root:Player 3 has lost the Match 
+INFO:root:Player 2 new Skill is 
+INFO:root:Game 3 requested at time
+INFO:root:Player 6 is entering the Match
+INFO:root:Player 4 is entering Match
+INFO:root:Player 2 is entering Match
+INFO:root:Player 6 has won the Match
+INFO:root:Player 4 has lost the Match
+INFO:root:Player 2 has lost the Match
+INFO:root:Player 6 new Skill is 
+INFO:root:Game 4 requested 
+INFO:root:Player 9 is entering the Match
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 6 is entering Match 
+INFO:root:Player 6 has won the Match 
+INFO:root:Player 9 has lost the Match 
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 6 new Skill is 
+INFO:root:Game 5 requested 
+INFO:root:Player 8 is entering the Match
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 6 is entering Match 
+INFO:root:Player 8 has won the Match
+INFO:root:Player 9 has lost the Match 
+INFO:root:Player 6 has lost the Match 
+INFO:root:Player 8 new Skill is 
+INFO:root:Game 6 requested 
+INFO:root:Player 7 is entering the Match
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 9 has won the Match
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 9 new Skill is 
+INFO:root:Game 7 requested 
+INFO:root:Player 4 is entering the Match
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 2 is entering Match  
+INFO:root:Player 3 has won the Match
+INFO:root:Player 4 has lost the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 3 new Skill is 
+INFO:root:Game 8 requested
+INFO:root:Player 6 is entering Match 
+INFO:root:Player 10 is entering Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Player 6 has lost the Match 
+INFO:root:Player 10 has lost the Match 
+INFO:root:Player 9 new Skill is 
+INFO:root:Game 9 requested 
+INFO:root:Player 8 is entering the Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Player 8 has lost the Match 
+INFO:root:Player 9 new Skill is 
+INFO:root:Game 10 requested 
+INFO:root:Player 2 is entering the Match 
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 4 has won the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 4 new Skill is 
+INFO:root:Hosting Client Simulator: 
+INFO:root:Game 1 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 4 has won the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Hosting Client Simulator:
+INFO:root:Game 1 requested 
+INFO:root:Player 2 is entering the Match 
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 3 has won the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 3 new Skill is 712.6359256710255
+INFO:root:Game 2 requested 
+INFO:root:Player 3 is entering the Match
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 3 has won the Match
+INFO:root:Player 4 has lost the Match 
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 3 new Skill is 906.3097476496783
+INFO:root:Game 3 requested
+INFO:root:Player 8 is entering the Match
+INFO:root:Player 8 has won the Match 
+INFO:root:Player 8 new Skill is 1205.02
+INFO:root:Game 4 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Player 9 new Skill is 1411.0
+INFO:root:Game 5 requested 
+INFO:root:Player 2 is entering the Match 
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 4 has won the Match
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 4 new Skill is 790.5175097276265
+INFO:root:Game 6 requested
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Player 9 new Skill is 1411.0
+INFO:root:Game 7 requested 
+INFO:root:Player 1 is entering the Match 
+INFO:root:Player 1 has won the Match 
+INFO:root:Player 1 new Skill is 100.0
+INFO:root:Game 8 requested 
+INFO:root:Player 5 is entering the Match 
+INFO:root:Player 2 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 2 has won the Match 
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 2 new Skill is 653.4531537048377
+INFO:root:Game 9 requested 
+INFO:root:Player 5 is entering the Match 
+INFO:root:Player 2 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 2 has won the Match
+INFO:root:Player 5 has lost the Match 
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 2 new Skill is 847.2795466810577
+INFO:root:Game 10 requested 
+INFO:root:Player 5 is entering the Match 
+INFO:root:Player 7 is entering Match  
+INFO:root:Player 7 has won the Match 
+INFO:root:Player 5 has lost the Match  
+INFO:root:Player 7 new Skill is 825.0
+INFO:root:Client simulation running
+INFO:root:Game 1 requested 
+INFO:root:Player 4 is entering the Match
+INFO:root:Player 7 is entering Match at 
+INFO:root:Player 2 is entering Match at 
+INFO:root:Player 7 has won the Match 
+INFO:root:Player 4 has lost the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 7 new Skill is 1024.471974004874
+INFO:root:Game 2 requested 
+INFO:root:Player 9 is entering the Match 
+INFO:root:Player 8 has lost the Match
+INFO:root:Player 9 new Skill is 1605.0419543281996
+INFO:root:Client simulation running
+INFO:root:Game 1 requested 
+INFO:root:Player 2 is entering the Match
+INFO:root:Player 1 is entering Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 2 has won the Match 
+INFO:root:Player 1 has lost the Match  
+INFO:root:Player 3 has lost the Match  
+INFO:root:Player 2 new Skill is 400.0
+INFO:root:Game 2 requested
+INFO:root:Player 8 is entering the Match 
+INFO:root:Player 6 is entering Match 
+INFO:root:Player 7 is entering Match 
+INFO:root:Player 8 has won the Match 
+INFO:root:Player 6 has lost the Match 
+INFO:root:Player 7 has lost the Match 
+INFO:root:Player 8 new Skill is 985.7142857142858
+INFO:root:Game 3 requested 
+INFO:root:Player 2 is entering the Match 
+INFO:root:Player 3 is entering Match 
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 3 has won the Match
+INFO:root:Player 2 has lost the Match
+INFO:root:Player 4 has lost the Match
+INFO:root:Player 3 new Skill is 518.1818181818182
+INFO:root:Game 4 requested 
+INFO:root:Player 2 is entering the Match
+INFO:root:Player 4 is entering Match 
+INFO:root:Player 5 is entering Match 
+INFO:root:Player 5 has won the Match
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 4 has lost the Match 
+INFO:root:Player 5 new Skill is 684.6153846153846
+INFO:root:Game 5 requested 
+INFO:root:Player 10 is entering the Match 
+INFO:root:Player 9 is entering Match 
+INFO:root:Player 8 is entering Match 
+INFO:root:Player 9 has won the Match 
+INFO:root:Player 10 has lost the Match 
+INFO:root:Player 8 has lost the Match 
+INFO:root:Player 9 new Skill is 1106.4124783362217
+INFO:root:Game 6 requested 
+INFO:root:Player 4 is entering the Match 
+INFO:root:Player 1 is entering Match 
+INFO:root:Player 2 is entering Match 
+INFO:root:Player 4 has won the Match 
+INFO:root:Player 1 has lost the Match 
+INFO:root:Player 2 has lost the Match 
+INFO:root:Player 9 is entering Match 
+
